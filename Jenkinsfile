@@ -1,4 +1,4 @@
-import groovy.json.JsonSlurper
+ groovy.json.JsonSlurper
 
 def getFtpPublishProfile(def publishProfilesJson) {
   def pubProfiles = new JsonSlurper().parseText(publishProfilesJson)
